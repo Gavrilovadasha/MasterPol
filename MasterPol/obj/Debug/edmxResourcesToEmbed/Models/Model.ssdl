@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище MasterPolModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Partners">
+    <Key>
+      <PropertyRef Name="IdTypePartners" />
+    </Key>
+    <Property Name="IdTypePartners" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NameTypePartnersId" Type="int" />
+    <Property Name="NamePartners" Type="nvarchar" MaxLength="255" />
+    <Property Name="Director" Type="nvarchar" MaxLength="255" />
+    <Property Name="Email" Type="nvarchar" MaxLength="255" />
+    <Property Name="Phone" Type="float" />
+    <Property Name="Address" Type="nvarchar" MaxLength="255" />
+    <Property Name="INN" Type="float" />
+    <Property Name="Raiting" Type="float" />
+  </EntityType>
+  <EntityType Name="PartnersProducts">
+    <Key>
+      <PropertyRef Name="IdPartnersProducts" />
+    </Key>
+    <Property Name="IdPartnersProducts" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NameProductsId" Type="int" Nullable="false" />
+    <Property Name="NamePartnersId" Type="int" Nullable="false" />
+    <Property Name="KolvoProducts" Type="float" />
+    <Property Name="DateProdaji" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Products">
+    <Key>
+      <PropertyRef Name="IdProducts" />
+    </Key>
+    <Property Name="IdProducts" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NameTypeProductsId" Type="int" />
+    <Property Name="NameProducts" Type="nvarchar" MaxLength="255" />
+    <Property Name="Articule" Type="float" />
+    <Property Name="MinPriceForPartner" Type="float" />
+  </EntityType>
+  <EntityType Name="ProductsType">
+    <Key>
+      <PropertyRef Name="IdProducsType" />
+    </Key>
+    <Property Name="IdProducsType" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NameTypeProducts" Type="nvarchar" MaxLength="255" />
+    <Property Name="KoeffTypeProd" Type="float" />
+  </EntityType>
+  <EntityType Name="TypeMaterial">
+    <Key>
+      <PropertyRef Name="IdTypeMaterial" />
+    </Key>
+    <Property Name="IdTypeMaterial" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NameTypeMaterial" Type="nvarchar" MaxLength="255" />
+    <Property Name="ProcentBrakaMateriala" Type="float" />
+  </EntityType>
+  <EntityType Name="TypePartners">
+    <Key>
+      <PropertyRef Name="IdTypePartners" />
+    </Key>
+    <Property Name="IdTypePartners" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NameTypePartners" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <Association Name="FK_Partners_TypePartners">
+    <End Role="TypePartners" Type="Self.TypePartners" Multiplicity="0..1" />
+    <End Role="Partners" Type="Self.Partners" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TypePartners">
+        <PropertyRef Name="IdTypePartners" />
+      </Principal>
+      <Dependent Role="Partners">
+        <PropertyRef Name="NameTypePartnersId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PartnersProducts_Partners">
+    <End Role="Partners" Type="Self.Partners" Multiplicity="1" />
+    <End Role="PartnersProducts" Type="Self.PartnersProducts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Partners">
+        <PropertyRef Name="IdTypePartners" />
+      </Principal>
+      <Dependent Role="PartnersProducts">
+        <PropertyRef Name="NamePartnersId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PartnersProducts_Products">
+    <End Role="Products" Type="Self.Products" Multiplicity="1" />
+    <End Role="PartnersProducts" Type="Self.PartnersProducts" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Products">
+        <PropertyRef Name="IdProducts" />
+      </Principal>
+      <Dependent Role="PartnersProducts">
+        <PropertyRef Name="NameProductsId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Products_ProductsType">
+    <End Role="ProductsType" Type="Self.ProductsType" Multiplicity="0..1" />
+    <End Role="Products" Type="Self.Products" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ProductsType">
+        <PropertyRef Name="IdProducsType" />
+      </Principal>
+      <Dependent Role="Products">
+        <PropertyRef Name="NameTypeProductsId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище MasterPolModelContainer">
+    <EntitySet Name="Partners" EntityType="Self.Partners" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PartnersProducts" EntityType="Self.PartnersProducts" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Products" EntityType="Self.Products" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ProductsType" EntityType="Self.ProductsType" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TypeMaterial" EntityType="Self.TypeMaterial" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TypePartners" EntityType="Self.TypePartners" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Partners_TypePartners" Association="Self.FK_Partners_TypePartners">
+      <End Role="TypePartners" EntitySet="TypePartners" />
+      <End Role="Partners" EntitySet="Partners" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PartnersProducts_Partners" Association="Self.FK_PartnersProducts_Partners">
+      <End Role="Partners" EntitySet="Partners" />
+      <End Role="PartnersProducts" EntitySet="PartnersProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PartnersProducts_Products" Association="Self.FK_PartnersProducts_Products">
+      <End Role="Products" EntitySet="Products" />
+      <End Role="PartnersProducts" EntitySet="PartnersProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Products_ProductsType" Association="Self.FK_Products_ProductsType">
+      <End Role="ProductsType" EntitySet="ProductsType" />
+      <End Role="Products" EntitySet="Products" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

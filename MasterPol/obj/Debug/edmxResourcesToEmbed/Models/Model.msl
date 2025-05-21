@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище MasterPolModelContainer" CdmEntityContainer="MasterPolEntities">
+    <EntitySetMapping Name="Partners">
+      <EntityTypeMapping TypeName="MasterPolModel.Partners">
+        <MappingFragment StoreEntitySet="Partners">
+          <ScalarProperty Name="IdTypePartners" ColumnName="IdTypePartners" />
+          <ScalarProperty Name="NameTypePartnersId" ColumnName="NameTypePartnersId" />
+          <ScalarProperty Name="NamePartners" ColumnName="NamePartners" />
+          <ScalarProperty Name="Director" ColumnName="Director" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="INN" ColumnName="INN" />
+          <ScalarProperty Name="Raiting" ColumnName="Raiting" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PartnersProducts">
+      <EntityTypeMapping TypeName="MasterPolModel.PartnersProducts">
+        <MappingFragment StoreEntitySet="PartnersProducts">
+          <ScalarProperty Name="IdPartnersProducts" ColumnName="IdPartnersProducts" />
+          <ScalarProperty Name="NameProductsId" ColumnName="NameProductsId" />
+          <ScalarProperty Name="NamePartnersId" ColumnName="NamePartnersId" />
+          <ScalarProperty Name="KolvoProducts" ColumnName="KolvoProducts" />
+          <ScalarProperty Name="DateProdaji" ColumnName="DateProdaji" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="MasterPolModel.Products">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="IdProducts" ColumnName="IdProducts" />
+          <ScalarProperty Name="NameTypeProductsId" ColumnName="NameTypeProductsId" />
+          <ScalarProperty Name="NameProducts" ColumnName="NameProducts" />
+          <ScalarProperty Name="Articule" ColumnName="Articule" />
+          <ScalarProperty Name="MinPriceForPartner" ColumnName="MinPriceForPartner" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductsType">
+      <EntityTypeMapping TypeName="MasterPolModel.ProductsType">
+        <MappingFragment StoreEntitySet="ProductsType">
+          <ScalarProperty Name="IdProducsType" ColumnName="IdProducsType" />
+          <ScalarProperty Name="NameTypeProducts" ColumnName="NameTypeProducts" />
+          <ScalarProperty Name="KoeffTypeProd" ColumnName="KoeffTypeProd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TypeMaterial">
+      <EntityTypeMapping TypeName="MasterPolModel.TypeMaterial">
+        <MappingFragment StoreEntitySet="TypeMaterial">
+          <ScalarProperty Name="IdTypeMaterial" ColumnName="IdTypeMaterial" />
+          <ScalarProperty Name="NameTypeMaterial" ColumnName="NameTypeMaterial" />
+          <ScalarProperty Name="ProcentBrakaMateriala" ColumnName="ProcentBrakaMateriala" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TypePartners">
+      <EntityTypeMapping TypeName="MasterPolModel.TypePartners">
+        <MappingFragment StoreEntitySet="TypePartners">
+          <ScalarProperty Name="IdTypePartners" ColumnName="IdTypePartners" />
+          <ScalarProperty Name="NameTypePartners" ColumnName="NameTypePartners" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

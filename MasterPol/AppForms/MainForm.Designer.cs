@@ -30,19 +30,19 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel = new System.Windows.Forms.Panel();
+            this.btnCalculateMaterial = new System.Windows.Forms.Button();
+            this.btnAddNewPartners = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.flowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.btnAddNewPartners = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // panel
             // 
-            this.panel.Controls.Add(this.button1);
+            this.panel.Controls.Add(this.btnCalculateMaterial);
             this.panel.Controls.Add(this.btnAddNewPartners);
             this.panel.Controls.Add(this.label2);
             this.panel.Controls.Add(this.label1);
@@ -52,8 +52,55 @@
             this.panel.Size = new System.Drawing.Size(810, 114);
             this.panel.TabIndex = 0;
             // 
+            // btnCalculateMaterial
+            // 
+            this.btnCalculateMaterial.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(186)))), ((int)(((byte)(128)))));
+            this.btnCalculateMaterial.ForeColor = System.Drawing.Color.White;
+            this.btnCalculateMaterial.Location = new System.Drawing.Point(506, 55);
+            this.btnCalculateMaterial.Name = "btnCalculateMaterial";
+            this.btnCalculateMaterial.Size = new System.Drawing.Size(288, 36);
+            this.btnCalculateMaterial.TabIndex = 4;
+            this.btnCalculateMaterial.Text = "Рассчитать кол-во материала";
+            this.btnCalculateMaterial.UseVisualStyleBackColor = false;
+            this.btnCalculateMaterial.Click += new System.EventHandler(this.btnCalculateMaterial_Click);
+            // 
+            // btnAddNewPartners
+            // 
+            this.btnAddNewPartners.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(186)))), ((int)(((byte)(128)))));
+            this.btnAddNewPartners.ForeColor = System.Drawing.Color.White;
+            this.btnAddNewPartners.Location = new System.Drawing.Point(506, 13);
+            this.btnAddNewPartners.Name = "btnAddNewPartners";
+            this.btnAddNewPartners.Size = new System.Drawing.Size(288, 36);
+            this.btnAddNewPartners.TabIndex = 3;
+            this.btnAddNewPartners.Text = "Добавить нового партнера";
+            this.btnAddNewPartners.UseVisualStyleBackColor = false;
+            this.btnAddNewPartners.Click += new System.EventHandler(this.btnAddNewPartners_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(123, 34);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(150, 21);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Список партнеров";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(123, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(102, 21);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Мастер пол";
+            // 
             // flowLayoutPanel
             // 
+            this.flowLayoutPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.flowLayoutPanel.AutoScroll = true;
             this.flowLayoutPanel.Location = new System.Drawing.Point(14, 133);
             this.flowLayoutPanel.Name = "flowLayoutPanel";
             this.flowLayoutPanel.Size = new System.Drawing.Size(807, 369);
@@ -68,47 +115,6 @@
             this.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox.TabIndex = 0;
             this.pictureBox.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(123, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 21);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Мастер пол";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(123, 34);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(150, 21);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Список партнеров";
-            // 
-            // btnAddNewPartners
-            // 
-            this.btnAddNewPartners.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(186)))), ((int)(((byte)(128)))));
-            this.btnAddNewPartners.ForeColor = System.Drawing.Color.White;
-            this.btnAddNewPartners.Location = new System.Drawing.Point(506, 13);
-            this.btnAddNewPartners.Name = "btnAddNewPartners";
-            this.btnAddNewPartners.Size = new System.Drawing.Size(288, 36);
-            this.btnAddNewPartners.TabIndex = 3;
-            this.btnAddNewPartners.Text = "Добавить нового партнера";
-            this.btnAddNewPartners.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(186)))), ((int)(((byte)(128)))));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(506, 55);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(288, 36);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Добавить нового партнера";
-            this.button1.UseVisualStyleBackColor = false;
             // 
             // MainForm
             // 
@@ -139,6 +145,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnCalculateMaterial;
     }
 }

@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Gavrilova\\source\\repos\\MasterPol\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{83C4BF18-F7B0-4617-B95E-37D9F1ACBAC9}|MasterPol\\MasterPol.csproj|c:\\users\\gavrilova\\source\\repos\\masterpol\\masterpol\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{83C4BF18-F7B0-4617-B95E-37D9F1ACBAC9}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{83C4BF18-F7B0-4617-B95E-37D9F1ACBAC9}|MasterPol\\MasterPol.csproj|c:\\users\\gavrilova\\source\\repos\\masterpol\\masterpol\\customcontrols\\partnerscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C4BF18-F7B0-4617-B95E-37D9F1ACBAC9}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\customcontrols\\partnerscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C4BF18-F7B0-4617-B95E-37D9F1ACBAC9}|MasterPol\\MasterPol.csproj|c:\\users\\gavrilova\\source\\repos\\masterpol\\masterpol\\customcontrols\\partnerscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{83C4BF18-F7B0-4617-B95E-37D9F1ACBAC9}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\customcontrols\\partnerscontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C4BF18-F7B0-4617-B95E-37D9F1ACBAC9}|MasterPol\\MasterPol.csproj|c:\\users\\gavrilova\\source\\repos\\masterpol\\masterpol\\dopmethod\\calculatematerialclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C4BF18-F7B0-4617-B95E-37D9F1ACBAC9}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\dopmethod\\calculatematerialclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C4BF18-F7B0-4617-B95E-37D9F1ACBAC9}|MasterPol\\MasterPol.csproj|c:\\users\\gavrilova\\source\\repos\\masterpol\\masterpol\\appforms\\calculatematerialform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{83C4BF18-F7B0-4617-B95E-37D9F1ACBAC9}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\appforms\\calculatematerialform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C4BF18-F7B0-4617-B95E-37D9F1ACBAC9}|MasterPol\\MasterPol.csproj|c:\\users\\gavrilova\\source\\repos\\masterpol\\masterpol\\appforms\\calculatematerialform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C4BF18-F7B0-4617-B95E-37D9F1ACBAC9}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\appforms\\calculatematerialform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C4BF18-F7B0-4617-B95E-37D9F1ACBAC9}|MasterPol\\MasterPol.csproj|c:\\users\\gavrilova\\source\\repos\\masterpol\\masterpol\\appforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83C4BF18-F7B0-4617-B95E-37D9F1ACBAC9}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\appforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83C4BF18-F7B0-4617-B95E-37D9F1ACBAC9}|MasterPol\\MasterPol.csproj|c:\\users\\gavrilova\\source\\repos\\masterpol\\masterpol\\appforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{83C4BF18-F7B0-4617-B95E-37D9F1ACBAC9}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\appforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,13 +55,89 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\Gavrilova\\source\\repos\\MasterPol\\MasterPol\\Form1.cs",
-              "RelativeDocumentMoniker": "MasterPol\\Form1.cs",
-              "ToolTip": "C:\\Users\\Gavrilova\\source\\repos\\MasterPol\\MasterPol\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "MasterPol\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Title": "PartnersControl.cs",
+              "DocumentMoniker": "C:\\Users\\Gavrilova\\source\\repos\\MasterPol\\MasterPol\\CustomControls\\PartnersControl.cs",
+              "RelativeDocumentMoniker": "MasterPol\\CustomControls\\PartnersControl.cs",
+              "ToolTip": "C:\\Users\\Gavrilova\\source\\repos\\MasterPol\\MasterPol\\CustomControls\\PartnersControl.cs",
+              "RelativeToolTip": "MasterPol\\CustomControls\\PartnersControl.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T06:25:51.848Z",
+              "WhenOpened": "2025-05-20T13:25:09.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PartnersControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Gavrilova\\source\\repos\\MasterPol\\MasterPol\\CustomControls\\PartnersControl.cs",
+              "RelativeDocumentMoniker": "MasterPol\\CustomControls\\PartnersControl.cs",
+              "ToolTip": "C:\\Users\\Gavrilova\\source\\repos\\MasterPol\\MasterPol\\CustomControls\\PartnersControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "MasterPol\\CustomControls\\PartnersControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:25:07.954Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\Gavrilova\\source\\repos\\MasterPol\\MasterPol\\AppForms\\MainForm.cs",
+              "RelativeDocumentMoniker": "MasterPol\\AppForms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Gavrilova\\source\\repos\\MasterPol\\MasterPol\\AppForms\\MainForm.cs",
+              "RelativeToolTip": "MasterPol\\AppForms\\MainForm.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAApwDMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:32:16.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CalculateMaterialForm.cs",
+              "DocumentMoniker": "C:\\Users\\Gavrilova\\source\\repos\\MasterPol\\MasterPol\\AppForms\\CalculateMaterialForm.cs",
+              "RelativeDocumentMoniker": "MasterPol\\AppForms\\CalculateMaterialForm.cs",
+              "ToolTip": "C:\\Users\\Gavrilova\\source\\repos\\MasterPol\\MasterPol\\AppForms\\CalculateMaterialForm.cs",
+              "RelativeToolTip": "MasterPol\\AppForms\\CalculateMaterialForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAADmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:21:10.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CalculateMaterialForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Gavrilova\\source\\repos\\MasterPol\\MasterPol\\AppForms\\CalculateMaterialForm.cs",
+              "RelativeDocumentMoniker": "MasterPol\\AppForms\\CalculateMaterialForm.cs",
+              "ToolTip": "C:\\Users\\Gavrilova\\source\\repos\\MasterPol\\MasterPol\\AppForms\\CalculateMaterialForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "MasterPol\\AppForms\\CalculateMaterialForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:15:00.574Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CalculateMaterialClass.cs",
+              "DocumentMoniker": "C:\\Users\\Gavrilova\\source\\repos\\MasterPol\\MasterPol\\DopMethod\\CalculateMaterialClass.cs",
+              "RelativeDocumentMoniker": "MasterPol\\DopMethod\\CalculateMaterialClass.cs",
+              "ToolTip": "C:\\Users\\Gavrilova\\source\\repos\\MasterPol\\MasterPol\\DopMethod\\CalculateMaterialClass.cs",
+              "RelativeToolTip": "MasterPol\\DopMethod\\CalculateMaterialClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T10:29:18.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Gavrilova\\source\\repos\\MasterPol\\MasterPol\\AppForms\\MainForm.cs",
+              "RelativeDocumentMoniker": "MasterPol\\AppForms\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Gavrilova\\source\\repos\\MasterPol\\MasterPol\\AppForms\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "MasterPol\\AppForms\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:32:14.916Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             }
           ]
